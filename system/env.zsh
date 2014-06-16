@@ -1,5 +1,4 @@
 export EDITOR='vim'
-export PATH=/usr/local/bin:$PATH:/Applications/Android\ Studio.app/sdk/platform-tools:/Applications/Android\ Studio.app/sdk/tools
 
 if [[ -e /usr/local/opt/chruby/share/chruby ]]; then
     # Load chruby
