@@ -13,6 +13,6 @@ then
 fi
 
 # Install homebrew packages
-#brew install
+brew install reattach-to-user-namespace
 
 exit 0
