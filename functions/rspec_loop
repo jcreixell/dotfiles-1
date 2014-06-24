@@ -1,0 +1,7 @@
+rspec_loop() {
+  while true; do bundle exec rspec; done
+}
+
+flush_memcached() {
+  echo 'flush_all' | nc localhost 11211
+}
