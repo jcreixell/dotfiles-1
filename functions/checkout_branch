@@ -1,0 +1,9 @@
+checkout_branch() {
+  if [ -z "$2" ]
+  then
+    echo "Usage: checkout_branch <source_repository> <branch_name>"
+  else
+    git checkout --track -b $2 $1/$2
+  fi  
+}
+

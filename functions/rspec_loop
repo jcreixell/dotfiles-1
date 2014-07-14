@@ -1,7 +1,10 @@
 rspec_loop() {
-  while true; do bundle exec rspec; done
+  if [ -z "$1" ]
+  then
+    while true; do bundle exec rspec; done
+  else
+    while true; do bundle exec rspec $1; done
+  fi
 }
 
-flush_memcached() {
-  echo 'flush_all' | nc localhost 11211
-}
+
