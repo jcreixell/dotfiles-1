@@ -14,12 +14,9 @@ fi
 
 # Install homebrew packages
 brew install reattach-to-user-namespace
-#brew install mysql
-#brew install postgres
-#brew install memcached
-#brew install redis
 brew install vim
 brew install tmux
 brew install chruby
 brew install ruby-install
+brew install hub
 exit 0
