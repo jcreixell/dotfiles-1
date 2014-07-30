@@ -1,9 +1,11 @@
 checkout_branch() {
+  [[ -z "$3" ]] && local_branch="$2" || local_branch="$3"
+
   if [ -z "$2" ]
   then
-    echo "Usage: checkout_branch <source_repository> <branch_name>"
+    echo "Usage: checkout_branch <source_repository> <branch_name> [local_branch_name]"
   else
-    git checkout --track -b $2 $1/$2
+    git checkout --track -b $local_branch $1/$2
   fi  
 }
 
