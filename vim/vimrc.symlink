@@ -27,6 +27,7 @@ Plugin 'git@github.com:kien/ctrlp.vim.git'
 Plugin 'git@github.com:scrooloose/nerdtree.git'
 Plugin 'sickill/vim-monokai'
 Plugin 'tomasr/molokai'
+Plugin 'derekwyatt/vim-scala'
 
 call vundle#end()
 
