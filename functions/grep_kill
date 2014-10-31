@@ -1,0 +1,9 @@
+grep_kill() {
+  if [ -z "$1" ]
+  then
+    echo "Usage: grep_kill <term> [args]"
+  else
+    ps ux | grep $1 | grep -v grep | awk '{print $2}' | xargs kill $2
+  fi  
+}
+
