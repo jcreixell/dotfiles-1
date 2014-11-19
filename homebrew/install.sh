@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 #
 # Homebrew
 #
@@ -19,4 +19,13 @@ brew install tmux
 brew install chruby
 brew install ruby-install
 brew install hub
+brew install postgres
+brew install beanstalkd
+brew install redis
+brew install memcached
+brew install docker
+brew install scala
+brew install typesafe-activator
+brew install git
+brew install sbt
 exit 0
