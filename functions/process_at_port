@@ -1,0 +1,9 @@
+process_at_port() {
+  if [ -z "$1" ]
+  then
+    echo "Usage: process_at_port <port>"
+  else
+    lsof -n -i4TCP:$1 | grep LISTEN
+  fi  
+}
+
