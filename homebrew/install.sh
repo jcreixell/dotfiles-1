@@ -28,4 +28,6 @@ brew install scala
 brew install typesafe-activator
 brew install git
 brew install sbt
+brew install libmagic
+brew install mcrypt
 exit 0
