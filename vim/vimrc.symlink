@@ -1,3 +1,20 @@
+" -----------------------------------------------------------------------------  
+" |                            VIM Settings                                   |
+" |                                                                           |
+" | Some highlights:                                                          |
+" |   jj = <esc>  Very useful for keeping your hands on the home row          |
+" |   ,n = toggle NERDTree off and on                                         |
+" |                                                                           |
+" |   ,f = fuzzy find all files                                               |
+" |   ,b = fuzzy find in all buffers                                          |
+" |   ,, = go to previous file                                                |
+" |                                                                           |
+" |   ,h = new horizontal window                                              |
+" |                                                                           |
+" |   ,i = toggle invisibles                                                  |
+" |                                                                           |
+" -----------------------------------------------------------------------------  
+
 set nocompatible
 filetype off
 
