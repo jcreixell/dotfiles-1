@@ -1,0 +1,4 @@
+load_boot2docker() {
+  `{ boot2docker init && boot2docker start } | grep export`
+}
+

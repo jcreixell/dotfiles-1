@@ -30,4 +30,5 @@ brew install git
 brew install sbt
 brew install libmagic
 brew install mcrypt
+brew install ag
 exit 0

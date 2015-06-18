@@ -23,6 +23,7 @@ set wildmenu
 set autoread
 set encoding=utf-8
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.class,*.jar
+set wildmode=longest,list
 
 set ttyfast
 set lazyredraw
@@ -47,6 +48,7 @@ Plugin 'tomasr/molokai'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'mileszs/ack.vim'
 Plugin 'tomtom/tcomment_vim'
+Plugin 'rking/ag.vim'
 
 call vundle#end()
 
