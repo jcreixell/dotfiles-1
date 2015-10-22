@@ -31,4 +31,6 @@ brew install sbt
 brew install libmagic
 brew install mcrypt
 brew install ag
+brew install colordiff
+brew install i2cssh
 exit 0
