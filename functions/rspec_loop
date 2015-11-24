@@ -1,9 +1,25 @@
 rspec_loop() {
   if [ -z "$1" ]
   then
-    while true; do bundle exec rspec; done
+    while true
+    do
+      bundle exec rspec
+
+      if [ "$?" -ne "0" ]
+      then
+        break
+      fi
+    done
   else
-    while true; do bundle exec rspec $1; done
+    while true
+    do
+      bundle exec rspec $1
+
+      if [ "$?" -ne "0" ]
+      then
+        break
+      fi
+    done
   fi
 }
 

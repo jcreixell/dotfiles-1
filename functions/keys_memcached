@@ -1,0 +1,6 @@
+keys_memcached() {
+  for i in `echo 'stats items' | nc localhost 11211 | grep -v END | awk '{print $2}' | cut -d':' -f2 | uniq`
+  do
+    echo "stats cachedump $i 1000" | nc localhost 11211 | grep -v END
+  done
+}

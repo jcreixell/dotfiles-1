@@ -1,0 +1,3 @@
+pid_mem() {
+  ps ux | grep $1 | grep -v grep | awk '{ rss=$5/1024 ; vsz=$6/1024 ; printf("RSS: %13.2f Mb\nVSZ: %13.2f Mb\n", rss, vsz) }'
+}
