@@ -41,6 +41,7 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-fugitive'
 Plugin 'git@github.com:kien/ctrlp.vim.git'
 Plugin 'git@github.com:scrooloose/nerdtree.git'
