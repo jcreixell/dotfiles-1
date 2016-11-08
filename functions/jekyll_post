@@ -1,0 +1,3 @@
+jekyll_post() {
+  echo "---\nlayout: post\ntitle:  $@\ndate:   `date +"%Y-%m-%d %T"`\n---" > `ruby -e 'puts "_posts/#{Time.now.strftime(%q{%F})}-#{ARGV.map(&:downcase).join(%q{-})}.markdown"' $@`
+}
