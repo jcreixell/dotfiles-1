@@ -41,4 +41,3 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 # Go
 export PATH=$PATH:$GOPATH/bin
-
