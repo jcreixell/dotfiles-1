@@ -33,4 +33,5 @@ brew install mcrypt
 brew install ag
 brew install colordiff
 brew install i2cssh
+brew install watch
 exit 0
