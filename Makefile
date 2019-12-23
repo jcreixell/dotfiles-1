@@ -7,7 +7,7 @@ osx:
 	@/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 	@git submodule update --init
 	@echo "Bootstrapping..."
-	@bin/dot
+	@script/bootstrap
 
 help:
 	@echo "Usage: make <osx>"
