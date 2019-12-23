@@ -1,14 +1,13 @@
+.PHONY: osx all help
 
 all: help
 
-ubuntu:
-	@echo "Installing dependencies"
-	@sudo apt-get update
-	@sudo apt-get install build-essential
-	@sudo apt-get install vim
-	@sudo apt-get install nodejs
-	@sudo apt-get install git
-	@sudo apt-get install chromium-browser
+osx:
+	@echo "Installing dependencies..."
+	@/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+	@git submodule update --init
+	@echo "Bootstrapping..."
+	@bin/dot
 
 help:
-	@echo "Usage: make <mac|ubuntu>"
+	@echo "Usage: make <osx>"
