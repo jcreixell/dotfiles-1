@@ -43,12 +43,10 @@
 [user]
   name = jcreixell
   email = jcreixell@gmail.com
-	signingkey = D586EECFA6BB3039
+	signingkey = 79BC8366C36FB1C2E104052B37F648D2C9527A6D
 
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
-[commit]
-	gpgsign = true
