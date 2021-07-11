@@ -41,3 +41,4 @@ export PATH=$PATH:$GOPATH/bin
 
 # Utilities
 export PATH=$PATH:~/.util
+export GPG_TTY=$(tty)

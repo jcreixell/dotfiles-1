@@ -14,3 +14,4 @@ if [[ -e /usr/local/opt/chruby/share/chruby ]]; then
 fi
 
 export PATH=/usr/local/bin:$PATH
+export GPG_TTY=$(tty)
